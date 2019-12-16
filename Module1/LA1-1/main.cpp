@@ -19,6 +19,10 @@ cout << "What is your age?" <<endl;
    cout << weight <<" is pretty heavy for someone who is "<<age<<endl;
    // sizeof(): get the size of the variable
    cout << "Integers are: "<< sizeof(int) << " bytes." << endl;
+   cout << "Min Integer value: " << INT32_MIN << 
+   " Max Integer value: " << INT32_MAX << " bytes." <<endl;
+
+   // output the sum of two variables
    cout << "age + weight is " << age+weight<<endl;
 
     return 0;
