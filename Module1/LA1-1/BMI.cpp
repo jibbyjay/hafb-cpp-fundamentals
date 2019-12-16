@@ -4,6 +4,8 @@ using namespace std;
 const float kMeterToInches = 39.37;
 const float kKilotoPound = 2.204;
 const int kBMIImperial = 703;
+const float kLowBMILimit = 18.5;
+const float kHighBMILimit = 24.9;
 
 int main()
 {
@@ -26,7 +28,15 @@ int main()
     bmi = weight*kBMIImperial/(height*height);
     cout << "Your BMI (imperial) is " <<bmi<<endl;
 
+//Task: Print if they are in a "good" range: BMI is in the 18.5 to 24.9
+// && (AND) to test two conditions
+if(bmi > kLowBMILimit && bmi <kHighBMILimit)
+{cout << "Your BMI "<<bmi<<"is good"<< endl;}
+else
+{
+    cout << "Your BMI "<<bmi<< " is bad!"<<endl;
+}
 
-
+cout << "Thank you for using the BMI calculator!!"<<endl;
     return 0;
 }
