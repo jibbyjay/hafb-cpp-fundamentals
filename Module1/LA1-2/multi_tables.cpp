@@ -1,7 +1,7 @@
 /**
  * @file multi_tables.cpp
  * @author your name (you@domain.com)
- * @brief Display muntiplication tables
+ * @brief Display multiplication tables
  * @version 0.1
  * @date 2019-12-16
  * 
@@ -13,7 +13,7 @@
 #include <iomanip> // for formatted output
 using namespace std;
 
-const int kMax = 10;
+const int kMax = 12;
 
 int main()
 {
