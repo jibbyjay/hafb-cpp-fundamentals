@@ -2,7 +2,9 @@
 - VSCode https://code.visualstudio.com/        // code editor
 - git    https://git-scm.com/        // for source control
 - cmake  https://cmake.org/        // to work with projects
--g++ (mingw)  http://www.mingw.org/   // compiler for windows. You need to add binaries to PATH env. variable
+- g++ (mingw)  http://www.mingw.org/   // compiler for windows. 
+- Add c:\MinGW\bin\ to PATH env. variable
+- mingw32-make  //use by cmake
 
 ## Terminal Commands 
 Note: ($ means terminal prompt):
@@ -42,9 +44,12 @@ int main()
 ```
 
 ## Plugins and Doxygen documentation
-```cpp
-// Add C/C++ Intellisense
-// Add Code Spell Extension 
-// Add Doxygen Documentation Generator
+
+- Add C/C++ Intellisense
+- Add Code Spell Extension 
+- Add Doxygen Documentation Generator
+- Markdown All in One
+- Cmake
+- Cmake Tools
 To generate Doxygen documentation: 
-// Run /** and <Enter>
+- Run /** and <Enter>
