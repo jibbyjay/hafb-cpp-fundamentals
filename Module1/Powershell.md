@@ -1,3 +1,9 @@
+## C++ Environment in Windows
+- VSCode https://code.visualstudio.com/        // code editor
+- git    https://git-scm.com/        // for source control
+- cmake  https://cmake.org/        // to work with projects
+-g++ (mingw)  http://www.mingw.org/   // compiler for windows. You need to add binaries to PATH env. variable
+
 ## Terminal Commands 
 Note: ($ means terminal prompt):
 ```bash
@@ -34,3 +40,11 @@ int main()
     return 0;
 }
 ```
+
+## Plugins and Doxygen documentation
+```cpp
+// Add C/C++ Intellisense
+// Add Code Spell Extension 
+// Add Doxygen Documentation Generator
+To generate Doxygen documentation: 
+// Run /** and <Enter>
