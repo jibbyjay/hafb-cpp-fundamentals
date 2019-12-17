@@ -16,3 +16,31 @@ void UpdateStep(int& step) // take the address of the parameter
     step += 1;
     cout << "New step: " << step << endl;
 }
+
+int Max2(int num1,int num2)
+{
+  int running_max;
+  running_max = num1;
+  if(num2>running_max)
+  {
+    running_max=num2;
+  }
+  return running_max;
+}
+
+int Max3(int num1,int num2,int num3)
+{
+  int running_max;
+  running_max = num1;
+  if(num2>running_max)
+  {
+    running_max=num2;
+  }
+
+  if(num3>running_max)
+  {
+    running_max=num3;
+  }
+  return running_max;
+}
+

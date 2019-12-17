@@ -7,4 +7,7 @@ int Sum(int num1, int num2); //Defines the function Sum() as requiring two integ
 
 void UpdateStep(int& step);
 
+int Max2(int num1,int num2);
+int Max3(int num1,int num2, int num3);
+
 #endif /* !FACTOR_H_ */
