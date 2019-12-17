@@ -10,5 +10,16 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
-# Note: In windows, the executable name will be: main.exe
+# Create a Static Library
+add_library(my_test 
+   STATIC
+     my_functions.h
+     my_functions.cpp
+   )
+
+
+# main code with ouput name: ca1
+# Note: In windows, the executable name will be: ca1.exe
 add_executable(main main.cpp)
+
+target_link_libraries(main my_test) # Link Library
