@@ -22,6 +22,7 @@ $ rm <name>     # remove/delete file/directory
 ```
 ## C++ Basics
 - File extension: `.cpp`
+- Header Files: `.h`
 
 ## g++ Compiler
 ```bash
@@ -53,3 +54,10 @@ int main()
 - Cmake Tools
 To generate Doxygen documentation: 
 - Run /** and <Enter>
+
+### CMake
+To build a project we need all the rules to be set under `CMakeLists.txt` file.
+- Create a build folder: `$ mkdir build`
+- Go to the build dir: `$ cd build`
+- Run cmake: `$ cmake .. -G "MinGW Makefiles"` the `..` is because your CMakeLists.txt is one folder up.
+- Build or compile your code: `$ cmake --build .` The `.` means to build it in pwd.
