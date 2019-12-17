@@ -59,7 +59,7 @@ int main() {
 
   std::cout << story << std::endl;
   std::string nick;
-  std::cout << "What do you wand to replace?";
+  std::cout << "What do you want to replace?";
   std::cin >> nick;
   std::string new_nick;
   std::cout << "What do you want to replace it with?";
