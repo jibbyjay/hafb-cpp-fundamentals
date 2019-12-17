@@ -44,3 +44,23 @@ int Max3(int num1,int num2,int num3)
   return running_max;
 }
 
+int Max10(const std::array<int, 10>& nums)
+{
+  int max = nums[0];
+  for(auto num : nums)
+  {
+    if(max <= num)
+    {
+      max = num;
+    }
+  }
+  return max;
+}
+
+void ClearElements(std::array<int, 10>& nums)
+{
+  for(int index = 0; index <nums.size(); ++index)
+  {
+    nums[index] = -99; //set value to 99
+  }
+}
