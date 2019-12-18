@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 //Create your first class
 class Carton
 {
@@ -30,4 +30,5 @@ class Carton
         void ShowInfo();
         void SetMeasurements(double length, double width, double height);
         double Volume() const;// adding const prevents function from changing data it uses.
+        void WriteData(std::ostream &out) const;
 }; // must have a ";" 
