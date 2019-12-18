@@ -15,7 +15,7 @@ void print_feet(Height h1)
 }
 
 //example of the same as above without the friend function.
-//this uses the setters/getters and is defined outside of the public domain of height.h
+//this uses the setters/getters and is defined outside of the Class Height in hight.h
 void print_feet2(Height h1)
 {
     std::cout << "Your height in inches is: " <<
