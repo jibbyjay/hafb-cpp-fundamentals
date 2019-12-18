@@ -11,16 +11,18 @@ int main()
   // std::cout << "Box width: " << box.width() << std::endl;
   // std::cout << "Box length: " << box.length() << std::endl;
   // create a Carton object using the other constructor
-box.set_length(12.5);
-box.set_height(10.9);
-box.set_width(23.0);
-box.ShowInfo();
-// std::cout << "Box height: " << box.height() << std::endl;
-// std::cout << "Box width: " << box.width() << std::endl;
-// std::cout << "Box length: " << box.length() << std::endl;
+  box.set_length(10.9);
+  box.set_height(12.5);
+  box.set_width(23.0);
+  box.ShowInfo();
+  // std::cout << "Box height: " << box.height() << std::endl;
+  // std::cout << "Box width: " << box.width() << std::endl;
+  // std::cout << "Box length: " << box.length() << std::endl;
 
+ Carton box2(34,89,11);
+ box2.ShowInfo();
   // create an array of Cartons
-
+ 
   // add some valid elements to the array
 
   // loop through the array

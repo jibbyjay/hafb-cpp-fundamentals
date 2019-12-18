@@ -11,6 +11,7 @@ class Carton
     public:
         // Constructor: build/create your object
         Carton(); //Contructor name is same as class
+        Carton(double length,double width, double height);
         // Getters Convention is lower case
         double length();
         double width();
