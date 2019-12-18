@@ -9,9 +9,15 @@ class Carton
         double height_;
 
     public:
+        // Static constants
+        //static const double kMaxsize;
+        static const double kMinLength;
+        static const double kMinWidth;
+        static const double KMinHeight;
         // Constructor: build/create your object
         Carton(); //Contructor name is same as class
         Carton(double length,double width, double height);
+        ~Carton();
         // Getters Convention is lower case
         double length();
         double width();
@@ -22,4 +28,6 @@ class Carton
         void set_height(double height);
         // Other methods Convention Upper Case
         void ShowInfo();
+        void SetMeasurements(double length, double width, double height);
+        double Volume() const;// adding const prevents function from changing data it uses.
 }; // must have a ";" 
