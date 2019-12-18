@@ -36,6 +36,12 @@ for(auto box : boxes)
 {
   box.ShowInfo();
 }
+// std::cout << "Printing array another way!" << std::endl;
+// for(int index =0;index<kMaxSize; ++index)
+// {
+//   boxes[index].ShowInfo();
+// }
+
   // print out the volume of packages
 
   // print out the girth of packages
