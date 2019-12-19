@@ -42,7 +42,7 @@ int main()
         cout << "You can retire!"<< endl;
     }
     
-
+cout << "as;ldkfj" << endl;
 
     return 0;
 }
