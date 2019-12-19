@@ -57,5 +57,8 @@ int main()
   Distance d4(d1);
   std::cout << d4 << " and " << d1 << std::endl;
 
+  int multiplier = 5;
+  d2 = multiplier*d1;
+
   return 0;
 }

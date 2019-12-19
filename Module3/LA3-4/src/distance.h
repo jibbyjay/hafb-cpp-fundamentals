@@ -18,8 +18,9 @@ public:
     float inches() const {return inches_;}
     void set_inches(float inches) {inches_ = inches;}
     //Other Methods
+    
     void ShowDist() const;
-
+    void Multiplier(int mult);
     Distance operator + (Distance rhs) const;
 
     friend std::ostream& operator << (std::ostream& os, const Distance& distance);
@@ -29,7 +30,7 @@ public:
     //Task 2: create a update_distance(feet, inches) function to update fields using setters
     void update_distance(int ft, float in);
 
-    // Distance operator * (Distance rhs) const;
+    Distance operator * (Distance rhs) const;
 
     bool operator < (Distance rhs) const; //compare objects
     bool operator == (Distance rhs) const; //compare objects

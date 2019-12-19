@@ -116,3 +116,20 @@ Distance Distance::operator = (Distance& rhs)
         inches_ = dist.inches_;
 
     }
+
+Void Distance::Multiplier(int rhs) const
+{
+    
+    float in = rhs.inches_ + rhs.feet_*12;
+    float in = inches_ + rhs.inches_;
+    // Update values IF inches > 12
+    int feet=0;
+    while(in >= 12.0)
+    {
+        in -= 12.0;
+        feet++;
+    }
+    Distance temp(feet, in);
+
+    return temp;
+}
